@@ -18,7 +18,7 @@ export interface LegacyCardProps {
     secondaryFooterActions?: SimpleAction[];
 }
 
-export function LegacyCard({
+export default function LegacyCard({
     title,
     children,
     actions,
