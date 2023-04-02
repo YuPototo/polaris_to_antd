@@ -45,21 +45,27 @@ export function LegacyCard({
         </Button>
     ) : null;
 
-    let footerActions = [];
-    if (secondaryFooterBtns) {
-        footerActions.push(...secondaryFooterBtns);
-    }
-    if (primaryFooterBtn) {
-        footerActions?.push(primaryFooterBtn);
+    let footerAction;
+
+    if (secondaryFooterActions || primaryFooterBtn) {
+        footerAction = (
+            <div
+                style={{
+                    display: "flex",
+                    gap: "10px",
+                    justifyContent: "flex-end",
+                }}
+            >
+                {secondaryFooterBtns}
+                {primaryFooterBtn}
+            </div>
+        );
     }
 
     return (
-        <Card
-            title={title}
-            extra={headerActionsWrapper}
-            actions={footerActions}
-        >
+        <Card title={title} extra={headerActionsWrapper}>
             {children}
+            {footerAction}
         </Card>
     );
 }
