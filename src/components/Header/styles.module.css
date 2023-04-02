@@ -1,0 +1,41 @@
+.header {
+    margin-bottom: 20px;
+    display: flex;
+    gap: 1rem;
+}
+
+.titleBox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 0.5rem;
+}
+
+.compactTitle {
+    margin-bottom: 0rem;
+}
+
+.title {
+    margin-bottom: 0px;
+}
+
+.subtitle {
+    color: rgba(109, 113, 117, 1);
+}
+
+.actionsGroup {
+    margin-left: auto;
+    display: flex;
+    gap: 1rem;
+}
+
+.backButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2rem;
+    width: 2rem;
+    border: 0.0625rem solid rgba(186, 191, 195, 1);
+    border-radius: 0.25rem;
+    margin-right: 0.5rem;
+}

@@ -1,12 +1,18 @@
 lockfileVersion: '6.0'
 
 dependencies:
+  '@ant-design/icons':
+    specifier: ^5.0.1
+    version: registry.npmmirror.com/@ant-design/icons@5.0.1(react-dom@18.2.0)(react@18.2.0)
   '@shopify/polaris':
     specifier: ^10.39.1
     version: registry.npmmirror.com/@shopify/polaris@10.39.1(react-dom@18.2.0)(react@18.2.0)
   antd:
     specifier: ^5.3.3
     version: registry.npmmirror.com/antd@5.3.3(react-dom@18.2.0)(react@18.2.0)
+  clsx:
+    specifier: ^1.2.1
+    version: registry.npmmirror.com/clsx@1.2.1
   react:
     specifier: ^18.2.0
     version: registry.npmmirror.com/react@18.2.0
@@ -1005,6 +1011,13 @@ packages:
     resolution: {integrity: sha512-CSbhY4cFEJRe6/GQzIk5qXZ4Jeg5pcsP7b5peFSDpffpe1cqjASH/n9UTjBwOp6XpMSTwQ8Za2K5V02ueA7Tmw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/classnames/-/classnames-2.3.2.tgz}
     name: classnames
     version: 2.3.2
+    dev: false
+
+  registry.npmmirror.com/clsx@1.2.1:
+    resolution: {integrity: sha512-EcR6r5a8bj6pu3ycsa/E/cKVGuTgZJZdsyUYHOksG/UHIiKfjxzRxYJpyVBwYaQeOvghal9fcc4PidlgzugAQg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/clsx/-/clsx-1.2.1.tgz}
+    name: clsx
+    version: 1.2.1
+    engines: {node: '>=6'}
     dev: false
 
   registry.npmmirror.com/color-convert@1.9.3:

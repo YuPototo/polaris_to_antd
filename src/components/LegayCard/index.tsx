@@ -1,6 +1,6 @@
 import { Button, Card } from "antd";
 
-type SimpleAction = {
+export type SimpleAction = {
     content: string;
     onAction?: () => void;
 };
@@ -18,7 +18,7 @@ export interface LegacyCardProps {
     secondaryFooterActions?: SimpleAction[];
 }
 
-export default function LegacyCard({
+export function LegacyCard({
     title,
     children,
     actions,

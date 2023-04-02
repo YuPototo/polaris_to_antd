@@ -16,7 +16,7 @@ export interface Props {
     enabled?: boolean;
 }
 
-export default function SettingToggle({ children, action, enabled }: Props) {
+export function SettingToggle({ children, action, enabled }: Props) {
     return (
         <LegacyCard>
             <div
